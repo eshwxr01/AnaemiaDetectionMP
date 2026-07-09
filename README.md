@@ -1,0 +1,2 @@
+# AnaemiaDetectionMP
+My Mini Project
