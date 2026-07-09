@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data — raw dataset AND processed splits are committed so all teammates
+# evaluate the identical split (files are tiny, <20KB each).
+
+# Models — trained .pkl are committed (<1MB total) so the training step can be
+# handed off via GitHub: teammate trains -> pushes -> others pull & evaluate.
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+*.ipynb_checkpoints
